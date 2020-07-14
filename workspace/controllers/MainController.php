@@ -24,7 +24,6 @@ class MainController extends Controller
 
     public function actionIndex()
     {
-
         $this->view->setTitle('Main Page');
         $this->view->addMeta('keywords', 'главная', ['some' => 'text']);
         $this->view->registerJs('/resources/js/bodyScript.js', [], true);
